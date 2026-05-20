@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://team-task-manager-production-bf6a.up.railway.app/api',
+  baseURL: 'https://team-task-manager-f1wc.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
